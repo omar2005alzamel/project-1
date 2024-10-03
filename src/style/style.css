@@ -1,0 +1,85 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin:0;
+    padding:0;
+
+}
+/* start header */
+.header{
+    background-color:#1e1e1e;
+    justify-content: space-between;
+}
+.header .logo img{
+    width:40px
+}
+.header  .serach{
+    position: relative;
+}
+.header  .serach img{
+    position: absolute;
+    width:15px;
+    top:7px;
+    left:15px;
+    transform: translateX(-50%);
+}
+.header  .serach input{
+    padding: 2px 2px 2px 25px;
+    outline: none;
+    border:2px solid #777;
+    border-radius: 8px;
+}
+/* end header */
+/* start about */
+.about{
+    background-color:#1e1e1e;
+}
+.about .box{
+    margin-top:100px;
+    width: 100%;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+}
+.about .box .info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.about .box .info h1{
+    color:white;
+    font-size: 48px;
+    font-weight: bold;
+}
+.about .box .info p{
+    color:white;
+    font-weight: 600;
+    margin-top: 5px;
+    font-size: 17px;
+}
+/* end about */
+/* star listcard */
+.lastcard{
+    background-color: #eee;
+}
+.lastcard .description .info p{
+    font-size: 18px;
+    font-weight: bold;
+}
+.lastcard .title h2{
+    padding-left:5px;
+    font-weight: bold;
+}
+.lastcard .title p{
+    font-size: 20px;
+    padding-top: 5px 0 5px 5px;
+}
+/* star listcard */
+.footer{
+    background-color: #1e1e1e;
+    color: aliceblue;
+    text-align: center;
+    margin-bottom: -15px;
+}
+/* star footer */
